@@ -15,6 +15,7 @@ namespace week2__day4_IntroTo_OOP
         //properties
         //a characteristic that is an action word
         //this allows/denies code to interact with fields
+        //chnage info in properties before changing in Fields
         public string Name
         {
             //typical format
