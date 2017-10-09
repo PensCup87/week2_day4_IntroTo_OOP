@@ -10,6 +10,15 @@ namespace week2__day4_IntroTo_OOP
     {
         static void Main(string[] args)
         {
+            Cat mittens = new Cat();//pulling information from Cat.cs Property
+            mittens.Name = "Mittens";//the string is the name of this instance from the Class Cat
+
+            Cat secondCat = new Cat("Ozzy", 2, "black");
+            mittens.Eat();
+            mittens.WorkOut();
+
+            Console.WriteLine(mittens.Name);
+            Console.WriteLine(secondCat.Name);
         }
     }
 }
